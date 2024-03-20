@@ -2,6 +2,7 @@ from flask import Flask
 app = Flask("toplay")
 import random
 
+#these are the available choices
 choices=['Hilary','Trump','Jill','Gary']
 
 @app.route('/')
